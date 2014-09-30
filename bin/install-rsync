@@ -1,0 +1,20 @@
+#!/bin/bash
+set -eu
+cd `dirname "$0"`/..
+
+say() {
+    echo "$@" >&2
+}
+
+say_do() {
+    say "$@"
+    "$@"
+}
+
+if [[ $# -ne 1 ]]; then
+    echo "Usage: $0 <remote specification>"
+    echo "Example: $0 $USER@beef.cattle.eu:/var/www/shop"
+    exit 1
+fi
+
+say_do rsync -avz upload/ "${1%/}/"
