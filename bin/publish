@@ -1,0 +1,5 @@
+#!/bin/bash
+set -eu
+cd `dirname "$0"`/..
+./bin/package
+rsync dist/prestashop-evalor.zip evalor@atlas:public_html/descargas/
