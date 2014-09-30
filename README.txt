@@ -4,7 +4,7 @@ Módulo PrestaShop para eValor
 Este módulo integra el módulo sidebar eValor en su tienda online. Este módulo es
 fácil de instalar. Para eso puede utilizar las instrucciones.
 
-Este módulo ha sido optimizado para las versiones 1.4 y 1.5 de PrestaShop.
+Este módulo ha sido optimizado para las versiones 1.4, 1.5 y 1.6 de PrestaShop.
 
 (C) 2014 Albert Peschar <albert@peschar.net>
 
